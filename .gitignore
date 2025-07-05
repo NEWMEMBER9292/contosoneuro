@@ -3,7 +3,7 @@ logs
 *.log
 npm-debug.log*
 yarn-debug.log*
-yarn-error.log*
+yarn-error.log*az ad sp create-for-rbac --name "sp-ghactions" --scope /subscriptions/fdf07e89-465d-4b0e-b511-e14fdd1f2e7b/resourceGroups/rg-cncontainer --role Contributor --json-auth
 lerna-debug.log*
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
