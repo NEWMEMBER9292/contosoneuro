@@ -2,7 +2,7 @@ name: build_deploy_aks
 on:
   push:
     paths:
-      - "content-web/**"
+      - "content-web/**"   
 jobs:
   build:
     runs-on: ubuntu-latest

@@ -24,7 +24,7 @@ spec:
       containers:
       - image: cnacrlsn.azurecr.io/content-web
         env:
-          - name: CONTENT_API_URL
+          - name: CONTENT_API_URL  
             value: http://api:3001
         livenessProbe:
           httpGet:
